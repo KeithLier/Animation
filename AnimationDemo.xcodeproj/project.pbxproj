@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535F8F561D7146A200A159E0 /* AnimationTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F8F541D7146A200A159E0 /* AnimationTwo.swift */; };
+		535F8F571D7146A200A159E0 /* AnimationTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535F8F551D7146A200A159E0 /* AnimationTwo.xib */; };
+		535F8F5A1D71608F00A159E0 /* AnimationThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F8F581D71608F00A159E0 /* AnimationThree.swift */; };
+		535F8F5B1D71608F00A159E0 /* AnimationThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535F8F591D71608F00A159E0 /* AnimationThree.xib */; };
+		535F8F5D1D71694900A159E0 /* ShapeMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F8F5C1D71694900A159E0 /* ShapeMask.swift */; };
+		535F8F601D71697200A159E0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F8F5F1D71697200A159E0 /* AvatarView.swift */; };
 		53A531211D704167005C0F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A531201D704167005C0F05 /* AppDelegate.swift */; };
 		53A531231D704167005C0F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A531221D704167005C0F05 /* ViewController.swift */; };
 		53A531261D704167005C0F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A531241D704167005C0F05 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		53A5312B1D704167005C0F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A531291D704167005C0F05 /* LaunchScreen.storyboard */; };
 		53A531361D704167005C0F05 /* AnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A531351D704167005C0F05 /* AnimationDemoTests.swift */; };
 		53A531411D704167005C0F05 /* AnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A531401D704167005C0F05 /* AnimationDemoUITests.swift */; };
+		53A531501D704781005C0F05 /* AnimationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5314E1D704781005C0F05 /* AnimationOne.swift */; };
+		53A531511D704781005C0F05 /* AnimationOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A5314F1D704781005C0F05 /* AnimationOne.xib */; };
+		53A531531D7047D3005C0F05 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 53A531521D7047D3005C0F05 /* 1.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		535F8F541D7146A200A159E0 /* AnimationTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTwo.swift; sourceTree = "<group>"; };
+		535F8F551D7146A200A159E0 /* AnimationTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTwo.xib; sourceTree = "<group>"; };
+		535F8F581D71608F00A159E0 /* AnimationThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationThree.swift; sourceTree = "<group>"; };
+		535F8F591D71608F00A159E0 /* AnimationThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationThree.xib; sourceTree = "<group>"; };
+		535F8F5C1D71694900A159E0 /* ShapeMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeMask.swift; sourceTree = "<group>"; };
+		535F8F5F1D71697200A159E0 /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		53A5311D1D704167005C0F05 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A531201D704167005C0F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53A531221D704167005C0F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		53A5313C1D704167005C0F05 /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A531401D704167005C0F05 /* AnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITests.swift; sourceTree = "<group>"; };
 		53A531421D704167005C0F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A5314E1D704781005C0F05 /* AnimationOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationOne.swift; sourceTree = "<group>"; };
+		53A5314F1D704781005C0F05 /* AnimationOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationOne.xib; sourceTree = "<group>"; };
+		53A531521D7047D3005C0F05 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		535F8F5E1D71695400A159E0 /* ShapeMask */ = {
+			isa = PBXGroup;
+			children = (
+				535F8F5C1D71694900A159E0 /* ShapeMask.swift */,
+				535F8F5F1D71697200A159E0 /* AvatarView.swift */,
+			);
+			name = ShapeMask;
+			sourceTree = "<group>";
+		};
 		53A531141D704167005C0F05 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +126,15 @@
 			children = (
 				53A531201D704167005C0F05 /* AppDelegate.swift */,
 				53A531221D704167005C0F05 /* ViewController.swift */,
+				53A5314E1D704781005C0F05 /* AnimationOne.swift */,
+				53A5314F1D704781005C0F05 /* AnimationOne.xib */,
+				535F8F541D7146A200A159E0 /* AnimationTwo.swift */,
+				535F8F551D7146A200A159E0 /* AnimationTwo.xib */,
+				535F8F581D71608F00A159E0 /* AnimationThree.swift */,
+				535F8F591D71608F00A159E0 /* AnimationThree.xib */,
+				535F8F5E1D71695400A159E0 /* ShapeMask */,
 				53A531241D704167005C0F05 /* Main.storyboard */,
+				53A531521D7047D3005C0F05 /* 1.JPG */,
 				53A531271D704167005C0F05 /* Assets.xcassets */,
 				53A531291D704167005C0F05 /* LaunchScreen.storyboard */,
 				53A5312C1D704167005C0F05 /* Info.plist */,
@@ -230,8 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				53A5312B1D704167005C0F05 /* LaunchScreen.storyboard in Resources */,
+				535F8F5B1D71608F00A159E0 /* AnimationThree.xib in Resources */,
+				535F8F571D7146A200A159E0 /* AnimationTwo.xib in Resources */,
 				53A531281D704167005C0F05 /* Assets.xcassets in Resources */,
+				53A531531D7047D3005C0F05 /* 1.JPG in Resources */,
 				53A531261D704167005C0F05 /* Main.storyboard in Resources */,
+				53A531511D704781005C0F05 /* AnimationOne.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +297,11 @@
 			files = (
 				53A531231D704167005C0F05 /* ViewController.swift in Sources */,
 				53A531211D704167005C0F05 /* AppDelegate.swift in Sources */,
+				535F8F601D71697200A159E0 /* AvatarView.swift in Sources */,
+				53A531501D704781005C0F05 /* AnimationOne.swift in Sources */,
+				535F8F561D7146A200A159E0 /* AnimationTwo.swift in Sources */,
+				535F8F5A1D71608F00A159E0 /* AnimationThree.swift in Sources */,
+				535F8F5D1D71694900A159E0 /* ShapeMask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +526,7 @@
 				53A531471D704167005C0F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53A531481D704167005C0F05 /* Build configuration list for PBXNativeTarget "AnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +535,7 @@
 				53A5314A1D704167005C0F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53A5314B1D704167005C0F05 /* Build configuration list for PBXNativeTarget "AnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +544,7 @@
 				53A5314D1D704167005C0F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
