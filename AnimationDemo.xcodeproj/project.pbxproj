@@ -23,6 +23,8 @@
 		53A531501D704781005C0F05 /* AnimationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5314E1D704781005C0F05 /* AnimationOne.swift */; };
 		53A531511D704781005C0F05 /* AnimationOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A5314F1D704781005C0F05 /* AnimationOne.xib */; };
 		53A531531D7047D3005C0F05 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 53A531521D7047D3005C0F05 /* 1.JPG */; };
+		53C7A3861D741D2A007FB13E /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A3851D741D2A007FB13E /* GradientLabel.swift */; };
+		53C7A3881D741F6F007FB13E /* GradientVontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A3871D741F6F007FB13E /* GradientVontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		53A5314E1D704781005C0F05 /* AnimationOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationOne.swift; sourceTree = "<group>"; };
 		53A5314F1D704781005C0F05 /* AnimationOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationOne.xib; sourceTree = "<group>"; };
 		53A531521D7047D3005C0F05 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		53C7A3851D741D2A007FB13E /* GradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
+		53C7A3871D741F6F007FB13E /* GradientVontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientVontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 				535F8F551D7146A200A159E0 /* AnimationTwo.xib */,
 				535F8F581D71608F00A159E0 /* AnimationThree.swift */,
 				535F8F591D71608F00A159E0 /* AnimationThree.xib */,
+				53C7A3841D741C85007FB13E /* Gradient */,
 				535F8F5E1D71695400A159E0 /* ShapeMask */,
 				53A531241D704167005C0F05 /* Main.storyboard */,
 				53A531521D7047D3005C0F05 /* 1.JPG */,
@@ -158,6 +163,15 @@
 				53A531421D704167005C0F05 /* Info.plist */,
 			);
 			path = AnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		53C7A3841D741C85007FB13E /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				53C7A3851D741D2A007FB13E /* GradientLabel.swift */,
+				53C7A3871D741F6F007FB13E /* GradientVontroller.swift */,
+			);
+			name = Gradient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +313,10 @@
 				53A531211D704167005C0F05 /* AppDelegate.swift in Sources */,
 				535F8F601D71697200A159E0 /* AvatarView.swift in Sources */,
 				53A531501D704781005C0F05 /* AnimationOne.swift in Sources */,
+				53C7A3861D741D2A007FB13E /* GradientLabel.swift in Sources */,
 				535F8F561D7146A200A159E0 /* AnimationTwo.swift in Sources */,
 				535F8F5A1D71608F00A159E0 /* AnimationThree.swift in Sources */,
+				53C7A3881D741F6F007FB13E /* GradientVontroller.swift in Sources */,
 				535F8F5D1D71694900A159E0 /* ShapeMask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

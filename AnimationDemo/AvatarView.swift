@@ -26,6 +26,13 @@ class AvatarView: UIView {
         return label
     }()
     
+    @IBInspectable
+    var image:UIImage!{
+        didSet{
+            photoLayer.contents = image.CGImage
+        }
+    }
+    
     override func didMoveToWindow() {
         
         layer.addSublayer(photoLayer)
