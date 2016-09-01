@@ -17,7 +17,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.title = "动画演示"
         // Do any additional setup after loading the view, typically from a nib.
         tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "animation")
-        animations = ["动画1","动画2","动画3","ShapeMask","CAGradientLayer"]
+        animations = ["动画1","动画2","动画3","ShapeMask","CAGradientLayer","Refresh"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,6 +37,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
         if indexPath.row == 0 {
             let one = AnimationOne()
             navigationController?.pushViewController(one, animated: true)
@@ -56,6 +57,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         if indexPath.row == 4 {
             let gra = GradientVontroller()
             navigationController?.pushViewController(gra, animated: true)
+        }
+        if indexPath.row == 5 {
+            let refresh = RefreshController()
+            navigationController?.pushViewController(refresh, animated: true)
         }
     }
 }
