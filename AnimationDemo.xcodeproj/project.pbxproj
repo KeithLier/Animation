@@ -13,6 +13,7 @@
 		535F8F5B1D71608F00A159E0 /* AnimationThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535F8F591D71608F00A159E0 /* AnimationThree.xib */; };
 		535F8F5D1D71694900A159E0 /* ShapeMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F8F5C1D71694900A159E0 /* ShapeMask.swift */; };
 		535F8F601D71697200A159E0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F8F5F1D71697200A159E0 /* AvatarView.swift */; };
+		536BD7281D7DB1D000889B47 /* ReplicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536BD7271D7DB1D000889B47 /* ReplicatorController.swift */; };
 		53751B9F1D7526C60033B714 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53751B9E1D7526C60033B714 /* RefreshView.swift */; };
 		53751BA11D7526E20033B714 /* RefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53751BA01D7526E20033B714 /* RefreshController.swift */; };
 		53A531211D704167005C0F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A531201D704167005C0F05 /* AppDelegate.swift */; };
@@ -53,6 +54,7 @@
 		535F8F591D71608F00A159E0 /* AnimationThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationThree.xib; sourceTree = "<group>"; };
 		535F8F5C1D71694900A159E0 /* ShapeMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeMask.swift; sourceTree = "<group>"; };
 		535F8F5F1D71697200A159E0 /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		536BD7271D7DB1D000889B47 /* ReplicatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplicatorController.swift; sourceTree = "<group>"; };
 		53751B9E1D7526C60033B714 /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		53751BA01D7526E20033B714 /* RefreshController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshController.swift; sourceTree = "<group>"; };
 		53A5311D1D704167005C0F05 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,7 @@
 				535F8F551D7146A200A159E0 /* AnimationTwo.xib */,
 				535F8F581D71608F00A159E0 /* AnimationThree.swift */,
 				535F8F591D71608F00A159E0 /* AnimationThree.xib */,
+				536BD7271D7DB1D000889B47 /* ReplicatorController.swift */,
 				53751B9D1D7521280033B714 /* Refresh */,
 				53C7A3841D741C85007FB13E /* Gradient */,
 				535F8F5E1D71695400A159E0 /* ShapeMask */,
@@ -329,6 +332,7 @@
 				53A531501D704781005C0F05 /* AnimationOne.swift in Sources */,
 				53C7A3861D741D2A007FB13E /* GradientLabel.swift in Sources */,
 				535F8F561D7146A200A159E0 /* AnimationTwo.swift in Sources */,
+				536BD7281D7DB1D000889B47 /* ReplicatorController.swift in Sources */,
 				53751B9F1D7526C60033B714 /* RefreshView.swift in Sources */,
 				535F8F5A1D71608F00A159E0 /* AnimationThree.swift in Sources */,
 				53C7A3881D741F6F007FB13E /* GradientVontroller.swift in Sources */,
@@ -476,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.lifecycle.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.lifecycle.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
