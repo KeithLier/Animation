@@ -17,7 +17,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.title = "动画演示"
         // Do any additional setup after loading the view, typically from a nib.
         tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "animation")
-        animations = ["动画1","动画2","动画3","ShapeMask","CAGradientLayer","Refresh","Replicator"]
+        animations = ["动画1","动画2","动画3","ShapeMask","CAGradientLayer","Refresh","Replicator","SnowSense"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -65,6 +65,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         if indexPath.row == 6 {
             let rep = ReplicatorController()
             navigationController?.pushViewController(rep, animated: true)
+        }
+        if indexPath.row == 7 {
+            let snow = SnowSense()
+            navigationController?.pushViewController(snow, animated: true)
         }
     }
 }

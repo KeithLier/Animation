@@ -26,6 +26,8 @@
 		53A531501D704781005C0F05 /* AnimationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5314E1D704781005C0F05 /* AnimationOne.swift */; };
 		53A531511D704781005C0F05 /* AnimationOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A5314F1D704781005C0F05 /* AnimationOne.xib */; };
 		53A531531D7047D3005C0F05 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 53A531521D7047D3005C0F05 /* 1.JPG */; };
+		53B820B41D85281F00632902 /* SnowSense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B820B31D85281F00632902 /* SnowSense.swift */; };
+		53B820B61D852B1500632902 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B820B51D852B1500632902 /* snow.png */; };
 		53C7A3861D741D2A007FB13E /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A3851D741D2A007FB13E /* GradientLabel.swift */; };
 		53C7A3881D741F6F007FB13E /* GradientVontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7A3871D741F6F007FB13E /* GradientVontroller.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +75,8 @@
 		53A5314E1D704781005C0F05 /* AnimationOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationOne.swift; sourceTree = "<group>"; };
 		53A5314F1D704781005C0F05 /* AnimationOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationOne.xib; sourceTree = "<group>"; };
 		53A531521D7047D3005C0F05 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		53B820B31D85281F00632902 /* SnowSense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowSense.swift; sourceTree = "<group>"; };
+		53B820B51D852B1500632902 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 		53C7A3851D741D2A007FB13E /* GradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
 		53C7A3871D741F6F007FB13E /* GradientVontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientVontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,11 +156,13 @@
 				535F8F581D71608F00A159E0 /* AnimationThree.swift */,
 				535F8F591D71608F00A159E0 /* AnimationThree.xib */,
 				536BD7271D7DB1D000889B47 /* ReplicatorController.swift */,
+				53B820B31D85281F00632902 /* SnowSense.swift */,
 				53751B9D1D7521280033B714 /* Refresh */,
 				53C7A3841D741C85007FB13E /* Gradient */,
 				535F8F5E1D71695400A159E0 /* ShapeMask */,
 				53A531241D704167005C0F05 /* Main.storyboard */,
 				53A531521D7047D3005C0F05 /* 1.JPG */,
+				53B820B51D852B1500632902 /* snow.png */,
 				53A531271D704167005C0F05 /* Assets.xcassets */,
 				53A531291D704167005C0F05 /* LaunchScreen.storyboard */,
 				53A5312C1D704167005C0F05 /* Info.plist */,
@@ -297,6 +303,7 @@
 			files = (
 				53A5312B1D704167005C0F05 /* LaunchScreen.storyboard in Resources */,
 				535F8F5B1D71608F00A159E0 /* AnimationThree.xib in Resources */,
+				53B820B61D852B1500632902 /* snow.png in Resources */,
 				535F8F571D7146A200A159E0 /* AnimationTwo.xib in Resources */,
 				53A531281D704167005C0F05 /* Assets.xcassets in Resources */,
 				53A531531D7047D3005C0F05 /* 1.JPG in Resources */,
@@ -328,6 +335,7 @@
 			files = (
 				53A531231D704167005C0F05 /* ViewController.swift in Sources */,
 				53A531211D704167005C0F05 /* AppDelegate.swift in Sources */,
+				53B820B41D85281F00632902 /* SnowSense.swift in Sources */,
 				535F8F601D71697200A159E0 /* AvatarView.swift in Sources */,
 				53A531501D704781005C0F05 /* AnimationOne.swift in Sources */,
 				53C7A3861D741D2A007FB13E /* GradientLabel.swift in Sources */,
