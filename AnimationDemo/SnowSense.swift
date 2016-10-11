@@ -16,6 +16,8 @@ class SnowSense: UIViewController {
         // Do any additional setup after loading the view.
         
         self.snow()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
