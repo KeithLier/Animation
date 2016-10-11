@@ -15,6 +15,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "动画演示"
+        self.view.backgroundColor = UIColor().redColor()
         // Do any additional setup after loading the view, typically from a nib.
         tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "animation")
         animations = ["动画1","动画2","动画3","ShapeMask","CAGradientLayer","Refresh","Replicator","SnowSense"]
@@ -29,6 +30,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return animations.count;
     }
     
+
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:UITableViewCell! = tableView.dequeueReusableCellWithIdentifier("animation", forIndexPath: indexPath) as UITableViewCell
         let text = animations[indexPath.row] as? String
