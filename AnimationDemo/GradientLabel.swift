@@ -16,6 +16,8 @@ class GradientLabel: UIView {
         gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
         
+        
+        
         let colors = [
             UIColor.blackColor().CGColor,
             UIColor.whiteColor().CGColor,
